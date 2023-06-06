@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
             return ListTile(
               title: Text(user.fullName),
-              subtitle: Text(email),
+              subtitle: Text(user.gender),
               //tileColor: color,
             );
           }),
